@@ -9,7 +9,7 @@ export const AddTask = ({ AddTask }) => {
         <input
           type="text"
           onChange={(e) => setTask(e.target.value)}
-          placeholder="add todo"
+          placeholder="add task"
           className="form-control"
           // value={task ? task : ""}
         />
